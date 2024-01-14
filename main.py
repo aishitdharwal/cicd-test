@@ -4,4 +4,5 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return {"message": "Hello World"}
+    return {"message": "Hello World",
+            "message2": "cicd is working"}
